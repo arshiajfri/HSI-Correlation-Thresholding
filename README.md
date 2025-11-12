@@ -163,6 +163,8 @@ The pipeline generates three key visualizations saved in the `results/` folder:
 2.  **Selected Bands Heatmap**: A new heatmap computed using *only* the selected bands (e.g., 85x85). This plot should appear much darker, proving that the high-correlation blocks have been successfully removed.
 3.  **Spectral Signature Plot**: Compares the full spectrum (all 220 bands) for a specific land cover (e.g., "Corn") against the points from the selected bands. This visually confirms that the selected subset still captures the unique spectral "fingerprint" of the material.
 
+<img width="1200" height="1000" alt="pearson_correlation_all" src="https://github.com/user-attachments/assets/e3d2abb4-7e09-4325-b6c0-53df6a678f81" />
+
 ## Dataset
 
 This project is configured to use the well-known **Indian Pines** hyperspectral dataset.
