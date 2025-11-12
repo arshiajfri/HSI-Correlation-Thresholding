@@ -1,4 +1,4 @@
-# Hyperspectral Band Correlation Analysis
+# Hyperspectral-Correlation-Filter
 
 ## Overview
 
@@ -21,7 +21,7 @@ Band correlation analysis identifies and removes these redundant bands, creating
 ## Project Structure
 
 ```
-band_analysis_oop/
+Hyperspectral-Correlation-Filter/
 ├── .gitignore
 ├── Data/
 │   ├── Indian_pines_corrected.mat  # Hyperspectral data cube
@@ -51,8 +51,8 @@ seaborn>=0.11.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/arshiajfri/hyperspectral-band-pruning.git
-cd hyperspectral-band-pruning
+git clone https://github.com/arshiajfri/Hyperspectral-Correlation-Filter.git
+cd Hyperspectral-Correlation-Filter
 
 # We recommend using a virtual environment
 python -m venv venv
