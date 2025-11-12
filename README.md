@@ -52,7 +52,7 @@ seaborn>=0.11.0
 ```bash
 # Clone the repository
 git clone https://github.com/arshiajfri/hyperspectral-band-pruning.git
-cd band_analysis_oop
+cd hyperspectral-band-pruning
 
 # We recommend using a virtual environment
 python -m venv venv
